@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="home.html" class="logo"> <i class="fas fa-pizza-slice"></i>Baguette Bites</a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html" style="color: rgb(45, 22, 199);"><b>menu</b></a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+            <div class="cart-items"></div>
+            <h3 class="total">Total: ₹0</h3>
+            <a href="cart.html" class="btn">Checkout Cart</a>
+        </div>
+
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <div class="heading">
+        <h1>our menu</h1>
+        <p><a href="home.html">home>>></a> menu</p>
+    </div>
+
+    <!-- menu section starts -->
+
+    <section class="menu">
+
+        <div class="menu-slider">
+            <div class="menu-wrapper">
+                <div class="menu-slide">
+                    <h1 class="title">🍽️ Choose Your Cravings</h1>
+
+                    <!-- Category Selector -->
+                    <div class="category-selector">
+                        <button class="category-btn active" data-category="pizza">Pizza</button>
+                        <button class="category-btn" data-category="pasta">Pasta</button>
+                        <button class="category-btn" data-category="dessert">Dessert</button>
+                        <button class="category-btn" data-category="wine">Wine</button>
+                    </div>
+                    <div class="menu-items">
+                        <!-- Pizza Items -->
+                        <div class="box-container category pizza active">
+                            <div class="box" data-name="pizza1">
+                                <div class="info">
+                                    <h3>Margherita</h3>
+                                    <p>Classic delight with 100% real mozzarella cheese</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹199<img src="pizzas/pizza1.webp" alt="Margherita" /></div>
+                                <div class="quantity-control" data-item="Margherita">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="pizza2">
+                                <div class="info">
+                                    <h3>Tandoori paneer</h3>
+                                    <p>Capsicum, Onion, paneer, sweet corn, in korma dip</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹399<img src="pizzas/pizza2.jpg" alt="Tandoori paneer pizza" /></div>
+                                <div class="quantity-control" data-item="Tandoori paneer pizza">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="pizza3">
+                                <div class="info">
+                                    <h3>cheezy-7 </h3>
+                                    <p>An exotic combination of white mozzarella, cream, white cheese, monterey jack,
+                                        cream orange, colby and orange cheddar cheese</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹349<img src="pizzas/pizza3.jpeg" alt="cheezy-7 pizza" /></div>
+                                <div class="quantity-control" data-item="cheezy-7 pizza">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="pizza4">
+                                <div class="info">
+                                    <h3>burn to hell </h3>
+                                    <p>A fiery and lethal combination of hot and garlic dip, jalapenos, mushrooms,
+                                        olives and capsicum</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹399<img src="pizzas/pizza4.jpeg" alt="burn to hell pizza" /></div>
+                                <div class="quantity-control" data-item="burn to hell pizza">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="pizza5">
+                                <div class="info">
+                                    <h3>paneer tikka butter masala</h3>
+                                    <p>An Indian speciality with exotic paneer tikka, onion, capsicum and red paprika
+                                    </p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹379<img src="pizzas/pizza5.jpg" alt="paneer tikka butter masala pizza" /></div>
+                                <div class="quantity-control" data-item="paneer tikka butter masala pizza">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="pizza6">
+                                <div class="info">
+                                    <h3>onion blossoms </h3>
+                                    <p>Combination of onion, fresh tomatoes, sweet corns</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹249<img src="pizzas/pizza6.jpg" alt="onion blossoms pizza" /></div>
+                                <div class="quantity-control" data-item="onion blossoms pizza">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-container category pasta">
+                            <div class="box" data-name="pasta1">
+                                <div class="info">
+                                    <h3>Mac & Cheese</h3>
+                                    <p>Macaroni Mixed And Baked Along With Mixture of Cheeses.</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹249<img src="pastas/pasta1.jpg" alt="Mac & Cheese Pasta" /></div>
+                                <div class="quantity-control" data-item="Mac & Cheese Pasta">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="pasta2">
+                                <div class="info">
+                                    <h3>Mexican </h3>
+                                    <p>Exotic red sauce with onion, capsicum, mushroom, olives and cheese</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹249<img src="pastas/pasta2.jpg" alt="Mexican Pasta" /></div>
+                                <div class="quantity-control" data-item="Mexican Pasta">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="pasta3">
+                                <div class="info">
+                                    <h3>Penne Portuguese</h3>
+                                    <p>Penne Pasta With Zucchini And Red-Yellow Bell Pepper In Creamy And Spicy Mix
+                                        Sauce.</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹249<img src="pastas/pasta3.jpg" alt="Penne Portuguese Pasta" /></div>
+                                <div class="quantity-control" data-item="Penne Portuguese Pasta">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="pasta4">
+                                <div class="info">
+                                    <h3>Italiano </h3>
+                                    <p>Italian classic with Indian twist. Onion, capsicum, mushroom, olives and cheese
+                                    </p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹249<img src="pastas/pasta4.jpg" alt="Italiano Pasta" /></div>
+                                <div class="quantity-control" data-item="Italiano Pasta">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="pasta5">
+                                <div class="info">
+                                    <h3>Indiana </h3>
+                                    <p>A blend of Indian flavours in your favourite pasta with onion, capsicum,
+                                        mushroom, olives and cheese</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹249<img src="pastas/pasta5.jpg" alt="Indiana Pasta" /></div>
+                                <div class="quantity-control" data-item="Indiana Pasta">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="pasta6">
+                                <div class="info">
+                                    <h3>Americano White Sauce </h3>
+                                    <p>A blend of American flavours in your favourite pasta with onion, capsicum,
+                                        mushroom, olives and cheese </p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹249<img src="pastas/pasta6.jpg" alt="Americano White Sauce Pasta" /></div>
+                                <div class="quantity-control" data-item="Americano White Sauce Pasta">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box-container category dessert">
+                            <div class="box" data-name="sweet1">
+                                <div class="info">
+                                    <h3>Choco Lava Cake</h3>
+                                    <p>Small muffin infused with warm chocolate! Vintage dessert</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹115<img src="desserts/dessert1.webp" alt="Choco Lava Cake" /></div>
+                                <div class="quantity-control" data-item="Choco Lava Cake">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="sweet2">
+                                <div class="info">
+                                    <h3>Chocolate Walnut Brownie</h3>
+                                    <p>Classic brownie with crunch of walnuts.</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹89<img src="desserts/dessert2.avif" alt="Chocolate Walnut Brownie" /></div>
+                                <div class="quantity-control" data-item="Chocolate Walnut Brownie">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                            <div class="box" data-name="sweet3">
+                                <div class="info">
+                                    <h3>Butterscotch Mousse Cake</h3>
+                                    <p>Sweet temptation! Butterscotch flavored mousse</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹109<img src="desserts/dessert3.webp" alt="Butterscotch Mousse Cake" /></div>
+                                <div class="quantity-control" data-item="Butterscotch Mousse Cake">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box-container category wine">
+                            <div class="box" data-name="wine1">
+                                <div class="info">
+                                    <h3>Chianti Classico Riserva</h3>
+                                    <p>A robust Tuscan red with a bouquet of dark cherries and spices, perfect for
+                                        complementing rich pasta dishes.</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹185<img src="wines/wine1.webp" alt="Chianti Classico Riserva" /></div>
+                                <div class="quantity-control" data-item="Chianti Classico Riserva">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+
+                            <div class="box" data-name="wine2">
+                                
+                                <div class="info">
+                                    <h3>Pinot Grigio</h3>
+                                    <p>A crisp and lively white wine with hints of green apple and citrus, ideal for
+                                        pairing with seafood, salads, and light Italian cuisine.</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹129<img src="wines/wine2.jpg" alt="Pinot Grigio" /></div>
+                                
+                                <div class="quantity-control" data-item="Pinot Grigio">
+                                    
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+
+                            </div>
+
+                            <div class="box" data-name="wine3">
+                                <div class="info">
+                                    <h3>Amarone della Valpolicella</h3>
+                                    <p>A luxurious Veneto red known for its velvety texture and flavors of dried fruits
+                                        and chocolate, a superb choice with hearty dishes like braised meats and aged
+                                        cheeses.</p>
+                                </div>
+                                <div class="price">&nbsp;&nbsp;&nbsp;₹209<img src="wines/wine3.jpg" alt="Amarone della Valpolicella"></div>
+                                <div class="quantity-control" data-item="Amarone della Valpolicella">
+                                    <button class="qty-btn minus">-</button>
+                                    <span class="qty-display">0</span>
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <p>Baguette Bites, Billionaire Street, Sindhu Bhavan, Ahmedabad - 380015</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>+919638221084</p>
+                <p>1800-252-252</p>
+                <a href="#" class="link" style="text-transform: none;">baguette_bites@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>Branches</h3>
+                <p>Ahmedabad<br>
+                    Mumbai<br>
+                    Delhi</p>
+            </div>
+
+        </div>
+        <div class="credit">created by <span>Baguette Bites</span> | all rights reserved!</div>
+
+    </section>
+
+
+    <!-- footer section ends -->
+
+
+
+
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- custom js link -->
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,236 @@
+<!-- <h3 class="title">pizza</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pizza1">
+                            <div class="info">
+                                <h3>Tandoori panner pizza</h3>
+                                <p>Capsicum, Onion, paneer, sweet corn, in korma dip</p>
+                            </div>
+                            <div class="price">₹399</div>
+                        </div>
+
+                        <div class="box" data-name="pizza2">
+                            <div class="info">
+                                <h3>cheezy-7 pizza</h3>
+                                <p>An exotic combition of white mozarella, cream, white cheese, monterey jack, cream orange, colby and orange cheddar cheese</p>
+                            </div>
+                            <div class="price">₹399</div>
+                        </div>
+
+                        <div class="box" data-name="pizza3">
+                            <div class="info">
+                                <h3>Korma paneer special pizza</h3>
+                                <p>onion, sweet corns, paneer, jalapeno in korma dip</p>
+                            </div>
+                            <div class="price">₹399</div>
+                        </div>
+
+                        <div class="box" data-name="pizza4">
+                            <div class="info">
+                                <h3>burn to hell pizza</h3>
+                                <p>A fiery and lethal combition of hot and garlic dip, jalapenos, mushrooms, olives and capsicum</p>
+                            </div>
+                            <div class="price">₹399</div>
+                        </div>
+
+                        <div class="box" data-name="pizza5">
+                            <div class="info">
+                                <h3>paneer tikka butter masala pizza</h3>
+                                <p>AN idnian speciality with exotic paneer tika, onion, capsicum and red paprika</p>
+                            </div>
+                            <div class="price">₹359</div>
+                        </div>
+
+                        <div class="box" data-name="pizza6">
+                            <div class="info">
+                                <h3>onion blossoms pizza</h3>
+                                <p>Combination of onion, fresh tomatoes, sweet corns</p>
+                            </div>
+                            <div class="price">₹289</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- <div class="swiper-slide slide">
+
+                    <h3 class="title">pasta</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pasta1">
+                            <div class="info">
+                                <h3>Mexican pasta</h3>
+                                <p>exotic red sauce with onion, capsicum, mushroom, olives and cheese</p>
+                            </div>
+                            <div class="price">₹199</div>
+                        </div>
+
+                        <div class="box" data-name="pasta2">
+                            <div class="info">
+                                <h3>americano white sauce pasta</h3>
+                                <p>a blend of american flavours in your favourite pasta with onion, capsicum, mushroom, olives and cheese </p>
+                            </div>
+                            <div class="price">₹169</div>
+                        </div>
+
+                        <div class="box" data-name="pasta3">
+                            <div class="info">
+                                <h3>indiana pasta</h3>
+                                <p>a blend of indian flavours in your favourite pasta with onion, capsicum, mushroom, olives and cheese</p>
+                            </div>
+                            <div class="price">₹199</div>
+                        </div>
+
+                        <div class="box" data-name="pasta4">
+                            <div class="info">
+                                <h3>italiano pasta</h3>
+                                <p>italian classic with indian twist. onion, capsicum, mushroom, olives and cheese</p>
+                            </div>
+                            <div class="price">₹179</div>
+                        </div>
+
+                        <div class="box" data-name="pasta5">
+                            <div class="info">
+                                <h3>Penne Portuguese pasta</h3>
+                                <p>Penne Pasta With Zucchini And Red-Yellow Bell Pepper In Creamy And Spicy Mix Sauce.</p>
+                            </div>
+                            <div class="price">₹299</div>
+                        </div>
+
+                        <div class="box" data-name="pasta6">
+                            <div class="info">
+                                <h3>Mac & Cheese Pasta pasta</h3>
+                                <p>Macaroni Mixed And Baked Along With Mixture of Cheeses.</p>
+                            </div>
+                            <div class="price">₹219</div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">dessert</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="sweet1">
+                            <div class="info">
+                                <h3>Choco lava cake</h3>
+                                <p>small mufin infused with warm chocolate! vintage desert</p>
+                            </div>
+                            <div class="price">₹115</div>
+                        </div>
+
+                        <div class="box" data-name="sweet2">
+                            <div class="info">
+                                <h3>Chocolate Walnut Brownie</h3>
+                                <p>Classic Brownie With Crunch Of Walnuts. </p>
+                            </div>
+                            <div class="price">₹89</div>
+                        </div>
+
+                        <div class="box" data-name="sweet3">
+                            <div class="info">
+                                <h3>Butterscotch Mousse Cake</h3>
+                                <p>Sweet temptation! Butterscotch flavored mousse</p>
+                            </div>
+                            <div class="price">₹109</div>
+                        </div>
+
+                        <div class="box" data-name="sweet4">
+                            <div class="info">
+                                <h3>red velvet lava Cake</h3>
+                                <p>A truly indulgent experience with sweet and rich red velvet cake on a creamy cheese flavoured base to give a burst of flavours in every bite</p>
+                            </div>
+                            <div class="price">₹139</div>
+                        </div>
+
+                    </div>
+
+                </div> -->
+<!-- 
+                
+        <div class="swiper-slide slide">
+
+            <h3 class="title">wines</h3>
+
+            <div class="box-container">
+
+                <div class="box" data-name="wine1">
+                    <div class="info">
+                        <h3>Chianti Classico Riserva</h3>
+                        <p> A robust Tuscan red with a bouquet of dark cherries and spices, perfect for complementing
+                            rich pasta dishes.</p>
+                    </div>
+                    <div class="price">₹185</div>
+                </div>
+
+                <div class="box" data-name="wine2">
+                    <div class="info">
+                        <h3>Pinot Grigio</h3>
+                        <p>A crisp and lively white wine with hints of green apple and citrus, ideal for pairing with
+                            seafood, salads, and light Italian cuisine. </p>
+                    </div>
+                    <div class="price">₹129</div>
+                </div>
+
+                <div class="box" data-name="wine3">
+                    <div class="info">
+                        <h3>Amarone della Valpolicella</h3>
+                        <p>A luxurious Veneto red known for its velvety texture and flavors of dried fruits and
+                            chocolate, a superb choice with hearty dishes like braised meats and aged cheeses.</p>
+                    </div>
+                    <div class="price">₹209</div>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        </div> --> -->
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-1.png">
+                <div class="content">
+                    <h3>my mac</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹ 299</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-2.png">
+                <div class="content">
+                    <h3>veg hawaiian pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹ 299</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-3.png">
+                <div class="content">
+                    <h3>farm villa pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹ 319</span>
+                </div>
+            </div>
+            <h3 class="total">total: ₹917</h3>
+            <a href="#" class="btn">checkout cart</a>
+        </div>
